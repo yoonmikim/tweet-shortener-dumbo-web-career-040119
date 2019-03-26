@@ -37,7 +37,7 @@ def word_substituter(sent)
   words = sent.split(" ")
   i = 0 
   while i < words.length 
-    word = word[i]
+    word = words[i]
       if word == dictionary.keys[i]
         arr.push(dictionary.values[i])
       else 
