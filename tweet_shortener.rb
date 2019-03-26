@@ -60,5 +60,3 @@ def bulk_tweet_shortener(arr)
   end
   ar
 end
-
-puts bulk_tweet_shortener
