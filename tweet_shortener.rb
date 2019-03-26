@@ -66,3 +66,4 @@ def selective_tweet_shortener(str)
     str
   end
 end
+
