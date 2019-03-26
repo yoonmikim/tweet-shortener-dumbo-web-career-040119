@@ -47,3 +47,7 @@ def word_substituter(sent)
   end
   arr.join(" ")
 end
+
+def bulk_tweet_shortener(arr)
+  
+end
