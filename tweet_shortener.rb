@@ -42,6 +42,7 @@ def word_substituter(sent)
         arr.push(dictionary.values[i])
       else 
         arr.push(word)
+      end
     i += 1 
   end
   arr.join(" ")
