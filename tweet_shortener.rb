@@ -31,17 +31,20 @@ def dictionary
   }
 end
 
+
 def word_substituter(sent)
-  str = ""
-  arr = []
   words = sent.split(" ")
+  arr = []
   i = 0 
   while i < words.length 
     word = words[i]
-      if word == dictionary.keys[i]
-        arr.push(dictionary.values[i])
+      # if words[i] == dictionary.keys[i]
+      if dictionary.keys.include?(word.downcase)
+        arr.push(dictionary[word.downcase])
+        # arr.push(dictionary.values[i])
+        # arr.push(dictionary[dictionary.keys[i]])
       else 
-        arr.push(word)
+        arr.push(words[i])
       end
     i += 1 
   end
