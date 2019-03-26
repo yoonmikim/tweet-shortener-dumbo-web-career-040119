@@ -58,3 +58,4 @@ def bulk_tweet_shortener(arr)
     i += 1
   end
 end
+
