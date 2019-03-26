@@ -39,7 +39,10 @@ def word_substituter(sent)
   while i < words.length 
     word = word[i]
       if word == dictionary.keys[i]
+        arr.push(dictionary.values[i])
+      else 
+        arr.push(word)
     i += 1 
   end
-  
+  arr.join(" ")
 end
