@@ -52,11 +52,9 @@ def word_substituter(sent)
 end
 
 def bulk_tweet_shortener(arr)
-  ar = []
   i = 0
   while i < arr.length 
-    ar.push(word_substituter(arr[i]))
+    puts (word_substituter(arr[i]))
     i += 1
   end
-  puts ar.to_s
 end
